@@ -1,9 +1,23 @@
+*{
+    padding:0px;
+    margin: 0px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 400;
+}
+a{
+    color: #3fa3f5;
+    text-decoration: none;
+}
 body{
     padding:0;
     margin:0;
     background-image: url("image/logo2.png");
-    font-family : -apple-system, BlinkMacSystemFont, "Segoe UI", "Liberation Sans", sans-serif;
     color: grey;
+}
+
+.displayflex{
+    display: flex;
+    justify-content: space-between;
 }
 .header{
     border-bottom: 1px solid blue;
@@ -18,13 +32,12 @@ body{
     padding-left: 562px;
 }
 .imgstack{
-    width: 158px;
-    height: 44px;
+    width: 160px;
 }
 .stack{
     width: 11%;
     float: left;
-    padding-left: 130px;
+    padding-left: 70px;
 }
 .about{
     width: 3%;
@@ -32,6 +45,7 @@ body{
     padding-top: 13px;
     color: grey;
     font-size: 13px;
+    padding-left: 80px;
 }
 .about1 {
     font-size: 20px;
@@ -64,7 +78,6 @@ body{
     height: 31px;
     margin: 4px;
     padding-left: 34px;
-    background-image: url("../image/searchpicture2.png");
     background-position: 1% 50%;
     background-repeat: no-repeat;
 }
@@ -82,9 +95,9 @@ body{
     margin-left: 45px;
 }
 .angular {
-        float: left;
-        background-color: #e1ecf4;
-        border: none;
+    float: left;
+    background-color: #e1ecf4;
+    border: none;
     }
 
 .clearjune{
@@ -123,15 +136,12 @@ body{
 .fa-certificate {
     font-size: 38px;
 }
-.imgstack{
-    width: 150px;
-}
 .left{
     width: 15%;
     padding-left: 40px;
     float: left;
-    
-	 
+    height: fit-content;
+    border-right: 2px solid #9eada2;
 }
 .clear1{
     clear:both;
@@ -178,7 +188,7 @@ body{
 }
 .collectives{
     cursor: pointer;
-    padding-left: 91px;
+    padding-left: 80px;
     padding-top: 17px;
     font-size: 11px;
 }
@@ -186,8 +196,9 @@ body{
     padding-left: 39px;
 }
 .explore{
+    font-size: 10px;
     cursor: pointer;
-    padding-left: 90px;
+    padding-left: 80px;
     padding-top: 19px;
     font-size: 13px;
 }
@@ -220,23 +231,19 @@ body{
     padding-left: 22px;
 }	
 .content{
-    width: 136px;
+    max-width: 136px;
     padding: 50px;
     margin: 18px;
     margin-top: 10px;
     font-size: 13px;
-    margin-left: 77px;
+    margin-left: 69px;
     padding: 7px;
     border: 1px solid #d5d5d5;
 }
 .right{
     width: 81%;
     float: left;
-    border-left: 8px solid #9eada2;
 }
-
-
-
 .man-img{
     padding-left: 25px;
     padding-top: 19px;
@@ -326,9 +333,6 @@ button.profile {
     float: left;
     
 }
-
-
-
 .clear3{
     clear:both;
 }
@@ -398,39 +402,40 @@ img.silvsnip {
 img.snipbronz {
     width: 35%;
 }
-.Communitiesall{
-    width: 218px;
-    margin: 18px;
-    margin-top: 4px;
-    font-size: 13px;
-    margin-left: 26px;
-    padding: 13px;
-    border: 1px solid #d5d5d5;
-    border-radius: 6px;
-    cursor:pointer;
-    padding-right: 23px;
-    height: 125px;
-}
+
 .stats1 {
     margin-left: 27px;
     font-size: 20px;
     color: black;
 }
-
-
 .Communitiesall-left{
     float: left;
-    color: blue;
+    color: #3fa3f5;
+    height: fit-content;
+    width: 250px;
+    border: 1px solid #d5d5d5;
+    border-radius: 6px;
+    padding: 10px;
+    font-size: 14px;
+
 }
 .Communitiesall-right{
     float: left;
     padding-left: 11px;
 }
+.joint{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 5px
+    ;
+    cursor: pointer;
+}
 .clearpath{
     clear:both;
 }
-.fivty {
-    padding-top: 0px;
+.count {
+    color: grey;
 }
 .six {
     padding-top: 7px;
@@ -440,9 +445,9 @@ img.snipbronz {
 }
 
 .onefour {
-        padding-top: 9px;
-        font-size: 20px;
-        color: black;
+    padding-top: 9px;
+    font-size: 20px;
+    color: black;
     
 }
 button.pipe {
@@ -456,8 +461,11 @@ ul{
     list-style-type: disc;
 }
 .abouttotal{
-    float:left;
     margin-top: 17px;
+    margin-left: 30px;
+}
+.marginleft{
+    margin-left: 25px;
 }
 .about {
     font-size: 13px;
@@ -471,7 +479,6 @@ ul{
     margin-top: 77px;
 }
 .badges1{
-   
     margin: 18px;
     margin-top: 25px;
     font-size: 13px;
@@ -479,8 +486,9 @@ ul{
     padding: 13px;
     border: 1px solid #d5d5d5;
     border-radius: 6px;
-    padding-right: 63px;
+    padding-right: 10px;
     float: left;
+    height: 200px;
 }
 .gold {
     margin-left: 40px;
@@ -544,50 +552,57 @@ span.Top {
 .clear0{
     clear: both;
 }
-.stackstack:hover{
-    color: #2fb2eb;
+.seticon{
+    margin-top: 5px;
 }
-.super:hover{
-    color: #2fb2eb;
+.seticon:hover{
+    color: #06648d;
 }
-.meta:hover{
-    color: #2fb2eb;
-}
-.Area:hover{
-    color: #2fb2eb;
-}
-.finance:hover{
-    color: #2fb2eb;
-}
+
 .comuny {
-    padding-left: 30px;
+    padding-left: 5px;
     font-size: 18px;
     color: black;
 }
 .viewall {
-    padding-left: 68px;
     font-size: 13px;
 }
+.communitynew{
+    display: flex;
+    justify-content: space-between;
+}   
 .view-all2{
     margin-left: 675px;
 }
+.square{
+    margin: 5px;
+}
 .numberall5 {
-    padding-left: 430px;
+    padding-left: 462px;
+}
+.numberall88 {
+    padding-left: 451px;
 }
 .numberall8 {
-    padding-left: 430px;
+    margin-left: 480px;
 }
 .numberall12 {
-    padding-left: 430px;
+    margin-left: 430px;
 }
 .numberall22 {
-    padding-left: 430px;
+    margin-left: 430px;
 }
 .numberall33{
-    padding-left: 430px;
+    margin-left: 430px;
 }
 .numberall44 {
-    padding-left: 430px;
+    margin-left: 430px;
+}
+.numberall55 {
+    margin-left: 475px;
+}
+.numberall86 {
+    margin-left: 472px;
 }
 .size {
     font-size: 20px;
@@ -601,7 +616,6 @@ span.Top {
     color: black;
 }  
 .view{
-    
     font-size: 13px;
 }
 .table1{
@@ -618,7 +632,6 @@ span.Top {
 }
 .newtag{
    border: 2px solid whitesmoke;
-   
    margin-top: 8px;
 }
 .ang2{
@@ -628,7 +641,7 @@ span.Top {
     margin-left: 6px;
 }
 .fa-circle{
-  margin-left: 10px;
+    margin-left: 10px;
 }
 .newbutton{
 	margin: 15px 5px;
@@ -642,6 +655,8 @@ span.Top {
 .newbutton3 {
     padding: 15px;
     border-bottom: 1px solid;
+    display: flex;
+    justify-content: space-between;
 }
 .view all2{
 	padding-left: 10px;
@@ -656,22 +671,28 @@ span.Top {
 }
 .right-side {
     margin :10px;
-    margin-left:400px;
     text-align:right;
     width: 40%;
     
 }
 button.read {
     margin-left: 346px;
-    margin-top: 0px;
+    margin-top: 15px;
     font-size: 10px;
     background-color: white;
     padding: 4px;
-    border-radius: 4px;
+    border-radius: 2px;
     color: grey;
-    border-color:#9ca3ab;
+    border-color:1px solid #9ca3ab;
 }
-
+.number {
+    margin-top: 19px;
+    font-size: 13px;
+    margin-left: 7px;
+    border: 1px solid black;
+    border-radius: 3px;
+    padding: 3px 7px;
+}
 
 .right-clear {
     clear:both;
@@ -744,13 +765,11 @@ button.read {
 }
 
 .all {
-       
-        border: 1px solid black;
-        padding: 3px;
-        border-radius: 3px;
-        border-color: grey;
-        font-size: 13px;
-    
+      border: 1px solid black;
+      padding: 3px;
+      border-radius: 3px;
+      border-color: grey;
+      font-size: 13px;
 }
 #a1,#a2{
     background-color: rgb(174, 174, 199);
@@ -762,11 +781,9 @@ button.read {
     font-size: 20px;
     color: black;
 }
-
 .Badgesnew {
         font-size: 20px;
         color: black;
-    
 }
 .answer {
     float:right;
@@ -878,15 +895,12 @@ table,td{
     margin-top:40px;
     border:1px solid #d9dbdb;
     border-radius:5px;
-   
 }
 .top1 {
     font-size: 20px;
     color: black;
     margin-top: 18px;
 }
-
-
 .top-layer  i{
     color:#69b579;
     font-size:13px;
@@ -913,10 +927,10 @@ table,td{
     padding:13px;
 }
 .top-meta-posts{
-    margin-top:30px;
-}
-.right-side{
-    float:right;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 #meta-post1,#meta-post2{
     color:gray;
@@ -926,7 +940,6 @@ table,td{
     margin-top:0px;
     border:1px solid #d9dbdb;
     border-radius:5px;
-    
 }
 .dart {
     background-color: #e1ecf4;
@@ -937,8 +950,11 @@ table,td{
     color:gray;
 }
 .two-digit{
-    padding:4px 13px;  
+    padding: 3px 7px;
+    border: 1px solid black;
+    border-radius: 3px;
 }
+
 .top-meta-details{
     color:#418ee0;
     font-size:15px;
@@ -952,9 +968,11 @@ table,td{
 .top-network-posts{
     margin-top:30px;
 }   
-footer{
+.footer{
     padding:15px;
-    
+    justify-content: space-between;
+    padding-left: 25px;
+    padding-right: 25px;
     display:flex;
     color:#787773;
     background-color: rgb(38, 41, 44);    
