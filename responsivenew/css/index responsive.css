@@ -1,140 +1,66 @@
-@media screen and (max-width: 1024px) {
-.log {
-    padding: 6px 2px;
+@media only screen and (max-width: 1432px) {
+.badges-block{
+    display: block;
 }
-.sign{
-    width: 49px;
-    height: 32px;
-    margin-left: 2px;
-}
-.fa-earth-americas {
-    margin-left: 0px;
-}
-.question {
-    font-size: 10px;
-}
-.public{
-    font-size: 9px;
-    padding-top: 15px;
-}
-.home {
-    font-size: 11px;
-}
-.tags {
-    font-size: 10px;
-}
-.left {
-    width: 18%;
-}
-.collectives {
-    padding-left: 89px;
-    padding-top: 13px;
-    font-size: 7px;
-}
-.users{
-    font-size: 10px;
-}
-.explore {
-    font-size: 10px;
-    padding-left: 86px;
-    padding-top: 16px;
-    font-size: 10px;
-}
-.job {
-    padding-left: 91px;
-    padding-top: 17px;
-    font-size: 10px;
-}
-.jobs {
-    padding-left: 117px;
-    padding-top: 12px;
-    font-size: 11px;
-}
-.company {
-    padding-left: 115px;
-    padding-top: 13px;
-    font-size: 10px;
-}
-.teams1{
-    font-size: 10px;
-}
-.content {
-    padding: 50px;
-    margin: 0px;
+.gold-badges{
     margin-top: 8px;
-    font-size: 10px;
-    margin-left: 58px;
-    padding: 0px;
 }
-.below-team {
-    font-size: 10px;
-}
-.freeone {
+.date{
     font-size: 11px;
-    font-size: 10px;
-    padding: 6px;
+    margin-top: 3px;
+} 
 }
-.right {
-    width: 77%;
-}
-.total{
-    width: 156px;
-    margin: 11px;
-    margin-top: 0px;
-    font-size: 10px;
-    margin-left: 26px;
-    padding: 13px;
-    padding-right: 17px;
-}
-.number {
-    margin-top: 12px;
-    font-size: 13px;
-    margin-left: -7px;
-    border-radius: 3px;
-    padding: 3px 7px;
-}
-.Communitiesall-left {
-    font-size: 10px;
-    width: 166px;
-}
-span.vi.ewall {
-    margin-right: 13px;
-    font-size: 11px;
-}
-.stats1 {
-    font-size: 18px;
-}
-.google{
-    font-size: 15px;
-}
-button.read {
-    margin-left: 223px;
-    font-size: 9px;
-    padding: 2px;
-}
-*{
+@media only screen and (max-width: 1423px) {
+.questions {
     font-size: 14px;
 }
-.badges1 {
-    margin: 0px;
-    margin-top: 12px;
+}
+@media only screen and (max-width: 1380px) {
+.questions{
     font-size: 13px;
-    margin-left: 7px;
-    border: 1px solid #d5d5d5;
-    padding-right: 3px;
-    height: 196px;
 }
-.newbutton {
-    margin: 10px 5px;
+.gold-badges{
+    padding: 7px;
+    display: block;
 }
+.communities {
+    padding: 6px;
+    
 }
-@media screen and (max-width: 768px) {
-}
-@media screen and (max-width: 425px) {
-.sign {
-    width: 47px;
-    height: 23px;
-    margin-left: 75px;
-    margin-top: 5px;
+@media only screen and (max-width: 1354px) {
+.gold-badges {
+    padding: 4px;
 }
 }
+@media only screen and (min-width: 1351px) and (max-width: 1305px) {
+.top-meta-details {
+    margin-left: 9px;
+}
+}
+@media only screen and (max-width: 1350px) {
+.communities{
+    padding: 6px;
+}
+}
+@media only screen and (max-width: 1344px) {
+ .communities{
+    padding: 1px;
+    margin-left: 0px;
+}
+}
+@media only screen and (max-width: 1339px) {
+.communities{
+    padding: 4px;
+}
+}
+@media only screen and (max-width: 1320px) {
+.communities{
+    padding: 3px;
+}
+}
+@media only screen and (max-width: 1320px) {
+.side-table {
+    padding: 3px;
+}
+}
+
