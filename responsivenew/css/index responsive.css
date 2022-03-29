@@ -1,94 +1,383 @@
-@media only screen and (max-width: 1024px) {
-    .content {
-        display: block;
-    }
-
-    .number-one1 {
-        display: none;
-    }
-
-    .stats-questions {
-        display: block;
-    }
+@media  screen and ( max-width:425px){
+.logo{
+    flex:5%; 
+    margin-left:0;  
 }
-@media only screen and (max-width: 426px) {
-    .side-nav {
-        display: none;
-    }
 .logo img {
-    display: block;
-    margin-left: 0px;
+    display:none;
+    width:20%;
+}  
+.last-seen{
+    display:block;  
 }
-.products {
-    display: block;
+body{
+    width:100%;   
 }
-.search-bar {
-    display: block;
+.details .name{
+    font-size:20px;
 }
-.search-bar input {
-    width: 31%;
-    padding: 3px;
-    margin-top: 16px;
+.logo{
+    background-repeat:no-repeat,no-repeat;
+    background-position: 19% 45% ,90% 45%;
 }
-.inbox{
-    display: block;
-    margin-top: 17px;
+.search-bar{
+    flex:1%;
+    padding:5px;
 }
-.achievements {
-    display: block;
-}
-.help {
-    display: block;
-}
-.list{
-    display: block;
-}
-.container{
-    display: block;
+.side-nav{
+    display:none;
 }
 .main-body{
-    display: block;
-    padding: 0px;
-    margin-left: 0px;
+    border-left:none;
+    width:100%;
+    padding:5px;
+    margin-left:0;   
 }
-.profile-details {
-    display: block;
+.stats-communities{
+    float:left;   
 }
-.community-sub {
-    font-size: 0%;
+.stats,.communities{
+    flex:90%;
+    padding:5px;
 }
-.gold-badges {
-    padding: 0px;
-    margin-right: 0px;
-    border-radius: 0px;
+.view-all{
+    font-size:9px;
 }
-.side-table {
-    display: block;
-    margin-top: 0px;
-    margin-right: 0px;
+.community-section{
+    width:100%;
 }
-.top-post-block {
+.heading{
+    font-size: 13px;
+    font-weight:bolder;
 }
-.top-meta-post-block {
+.sub-heading{
+    margin-top:30px;
+    width:100%;
 }
-.top-tags {
-    width: 100%;
+.communities .community-sub{
+    font-size:10px;
 }
-.questions {
-    font-size: 11px;
+.communities .count{
+    font-size:10px;
+    margin-top:2px;  
 }
-.footer-logo i {
-    margin-left: 0px;
-    margin-right: 0px;
+.twitter-link{
+    margin-top:5px;
 }
-.link1 {
-    margin-right: 0px;
+.twitter-link span{
+    font-size:11px; 
 }
-.link1 ul li {
-    padding-top: 0px;
+.about ul li{
+    padding-top:5px;
+    font-size:12px;
 }
-.footer-description {
-    margin-top: 0px;
-    margin-left: 0px;
+.top-layer  i{
+    font-size:11px;
+    margin-left:3px;
+} 
+.score .score-count
+{
+    font-size:15px;
+}
+.year{ 
+    margin-left:3px;
+    margin-right:3px;
+    padding:2px 4px;
+    font-size:11px;
+}
+.layer .questions{
+    font-size:11px;
+}
+.date{    
+    font-size:10px;     
+}
+.top-meta-post-block
+{
+    font-size:11px;
+}
+.footer-description{
+    padding-left:6%;
+}
+}
+@media  screen and (max-width:800px){
+body{
+    overflow-x:hidden;
+}
+.logo{
+    margin-left:3px;
+}
+.help i,.achievements i,.inbox i,.list i
+{
+    margin-top:65%;
+    margin-left:1%;
+    font-size:14px;
+    color:gray;
+    padding:4px;
+}
+.profile-details{
+    flex-direction:column;
+    flex:10%;  
+}
+.details{
+     padding-left:0px;
+}
+.details .name{
+    font-size:23px;
+}
+.details .qualification{
+    font-size: 13px;
+    color:gray;
+    padding-top:8px;
+}
+.details .location{
+    font-size:10px;
+    color:gray;
+    padding-top:8px;
+}
+.location i{
+    font-size:14px;
+    padding-left:6px;
+}
+.content{
+    flex-direction: column;
+    margin-top:10px;
+}
+.stats-communities{
+    float:left;  
+}
+.stats{
+    width:70%;
+}
+.communities{
+    width:70%;
+} 
+.view-all{
+    float:left;
+    margin-left:30%;
+}
+.about{
+    padding:5px;
+}
+.badges-heading{ 
+    flex:25%;
+}
+.badges-block{
+    flex-direction: column;  
+}
+.gold-badges{
+    margin-top:10px;
+}
+table{
+    margin-right:10px;
+    font-size:11px;
+    color:gray;
+    height:10px;
+    width:80px;
+}
+.table2{
+    height:10px;
+    width:40px;
+}
+td{
+    padding:3px 4px;
+    }
+.top-layer  i{
+    color:#69b579;
+    font-size:13px;
+    margin-left:6px;
+} 
+.year{
+    background-color:#69b579;
+    border-radius:3px;
+    color:white;
+    margin-left:5px;
+    margin-right:5px;
+    padding:2px 4px;
+}
+.questions{
+    font-size:12px;
+}
+.date{
+    font-size:11px;     
+}
+.top-meta-details{
+    font-size:12px;
+    margin-left:5px;
+}
+.side-title{
+    font-size:13px;
+} 
+.number{
+    font-size:12px;
+    margin-left:5px;
+}
+.layer{
+    padding:8px;
+}
+footer{
+    flex-direction: column;    
+}
+.link1 ul li{
+    display:inline;
+}
+.footer-description{
+    margin-top:2%;
+    margin-left:6%;
+}
+}
+@media  screen and (max-width:1024px){
+.number-one1 {
+    display: none;
+}
+.view-all1 {
+    margin-right: 158px;
+}
+body{
+    overflow-x:hidden;
+}
+.logo{
+    margin-left:3px;
+}
+.help i,.achievements i,.inbox i,.list i{
+    margin-top:65%;
+    margin-left:1%;
+    font-size:14px;
+    color:gray;
+    padding:4px;
+}
+.profile-details{
+    flex-direction:column;
+    flex:10%;  
+}
+.details{
+    padding-left:0px;
+}
+.details .name{
+    font-size:23px;
+}
+.details .qualification{
+    font-size: 13px;
+    color:gray;
+    padding-top:8px;
+}
+.details .location{
+    font-size:10px;
+    color:gray;
+    padding-top:8px;
+}
+.location i{
+    font-size:14px;
+    padding-left:6px;
+}
+.content{
+    flex-direction: column;
+    margin-top:10px;
+}
+.stats-communities{
+    float:left;  
+}
+.stats{
+    width:70%;
+}
+.communities{
+    width:70%;
+}
+.view-all{
+    float:left;
+    margin-left:30%;
+}
+.about{
+    padding:5px;
+}
+.badges-heading{
+    flex:25%;
+}
+.badges-block{
+    flex-direction: column;
+}
+.gold-badges{
+    margin-top:10px;
+}
+table{
+    margin-right:10px;
+    font-size:11px;
+    color:gray;
+    height:10px;
+    width:80px;
+    border-radius:15px;
+}
+.table2{
+    height:10px;
+    width:40px;
+}
+td{
+    padding:3px 4px;
+}
+.top-layer  i{
+    color:#69b579;
+    font-size:13px;
+    margin-left:6px;
+} 
+.year{
+    background-color:#69b579;
+    border-radius:3px;
+    color:white;
+    margin-left:5px;
+    margin-right:5px;
+    padding:2px 4px;
+}
+.questions{
+    font-size:12px;
+}
+.date{
+    font-size:11px;     
+}
+.top-meta-details{
+    font-size:12px;
+    margin-left:5px;
+}
+.side-title{
+    font-size:13px;
+} 
+.number{
+    font-size:12px;
+    margin-left:5px;
+}
+.layer{
+    padding:11px;
+}
+footer{
+    flex-direction: column;    
+}
+.link1 ul li{
+    display:inline;
+}
+.footer-description{
+    margin-top:2%;
+    margin-left:5%;
+}
+}
+@media  screen and (max-width:904px){
+.date {
+    display: none;
+}
+.side-table{
+    margin-right: 72px;
+}
+}
+@media  screen and (max-width:780px){
+.top-tags{
+    width:unset;
+}
+}
+@media  screen and (max-width:729px){
+.layer {
+    padding: 6px;
+}
+}
+@media  screen and (max-width:750px){
+.score-title
+{
+    display: none;
 }
 }
