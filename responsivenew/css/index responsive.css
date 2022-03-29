@@ -1,66 +1,93 @@
-@media only screen and (max-width: 1432px) {
-.badges-block{
+@media only screen and (max-width: 1024px) {
+    .content {
+        display: block;
+    }
+
+    .number-one1 {
+        display: none;
+    }
+
+    .stats-questions {
+        display: block;
+    }
+}
+@media only screen and (max-width: 426px) {
+    .side-nav {
+        display: none;
+    }
+.logo img {
     display: block;
-}
-.gold-badges{
-    margin-top: 8px;
-}
-.date{
-    font-size: 11px;
-    margin-top: 3px;
-} 
-}
-@media only screen and (max-width: 1423px) {
-.questions {
-    font-size: 14px;
-}
-}
-@media only screen and (max-width: 1380px) {
-.questions{
-    font-size: 13px;
-}
-.gold-badges{
-    padding: 7px;
-    display: block;
-}
-.communities {
-    padding: 6px;
-    
-}
-@media only screen and (max-width: 1354px) {
-.gold-badges {
-    padding: 4px;
-}
-}
-@media only screen and (min-width: 1351px) and (max-width: 1305px) {
-.top-meta-details {
-    margin-left: 9px;
-}
-}
-@media only screen and (max-width: 1350px) {
-.communities{
-    padding: 6px;
-}
-}
-@media only screen and (max-width: 1344px) {
- .communities{
-    padding: 1px;
     margin-left: 0px;
 }
+.products {
+    display: block;
 }
-@media only screen and (max-width: 1339px) {
-.communities{
-    padding: 4px;
+.search-bar {
+    display: block;
 }
-}
-@media only screen and (max-width: 1320px) {
-.communities{
+.search-bar input {
+    width: 31%;
     padding: 3px;
+    margin-top: 16px;
 }
+.inbox{
+    display: block;
+    margin-top: 17px;
 }
-@media only screen and (max-width: 1320px) {
+.achievements {
+    display: block;
+}
+.help {
+    display: block;
+}
+.list{
+    display: block;
+}
+.container{
+    display: block;
+}
+.main-body{
+    display: block;
+    padding: 0px;
+    margin-left: 0px;
+}
+.profile-details {
+    display: block;
+}
+.community-sub {
+    font-size: 0%;
+}
+.gold-badges {
+    padding: 0px;
+    margin-right: 0px;
+    border-radius: 0px;
+}
 .side-table {
-    padding: 3px;
+    display: block;
+    margin-top: 0px;
+    margin-right: 0px;
 }
+.top-post-block {
 }
-
+.top-meta-post-block {
+}
+.top-tags {
+    width: 100%;
+}
+.questions {
+    font-size: 11px;
+}
+.footer-logo i {
+    margin-left: 0px;
+    margin-right: 0px;
+}
+.link1 {
+    margin-right: 0px;
+}
+.link1 ul li {
+    padding-top: 0px;
+}
+.footer-description {
+    margin-top: 0px;
+    margin-left: 0px;
+}

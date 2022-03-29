@@ -181,7 +181,6 @@ input[type="search"] {
     position:sticky;
     top:5%;
     left:94px;
-   
 }
 nav
 {
@@ -206,7 +205,6 @@ nav
     font-size:16px;
     margin-right:10px; 
     color:#f7b50f; 
-    
 }
 .fa-briefcase
 {
@@ -300,7 +298,6 @@ nav
 .btn-group
 {
     margin-top:15px;
-  
 }
  .profile-btn-group
 {
@@ -543,7 +540,6 @@ nav
 {
     font-size:8px;
     padding-right:3px;
-   
 }
 .silver,#award-silver
 {
@@ -559,19 +555,19 @@ nav
 }
 .row2 span
 {
-     float:right;
-     font-size:11px;
-     padding:6px;
-     color:#3f4040;
+    float:right;
+    font-size:11px;
+    padding:6px;
+    color:#3f4040;
 }
 .row2 button
 {
-     font-size:11px;
-     color:gray;
-     padding:5px 5px;
-     background-color:#e6ebea;
-     border:1px solid #d9dbdb;
-     border-radius:3px;     
+    font-size:11px;
+    color:gray;
+    padding:5px 5px;
+    background-color:#e6ebea;
+    border:1px solid #d9dbdb;
+    border-radius:3px;     
 }
 .row2 button:hover
 {
@@ -594,7 +590,6 @@ nav
     border-bottom:none;
     border-radius:5px;
 }
-
 .score
 {
     float:right;
@@ -698,31 +693,31 @@ table,td
 } 
 .year
 {
-      background-color:#69b579;
-      border-radius:3px;
-      color:white;
-      margin-left:10px;
-      margin-right:10px;
-      padding:2px 4px;
+    background-color:#69b579;
+    border-radius:3px;
+    color:white;
+    margin-left:10px;
+    margin-right:10px;
+    padding:2px 4px;
 }
 .questions
 {
-       color:#418ee0;
-       font-size:15px;
+    color:#418ee0;
+    font-size:15px;
 }
 .date
 {
-      float:right;
-      font-size:13px;
-      color:gray;
+    float:right;
+    font-size:13px;
+    color:gray;
 }
 .top-layer
 {
-      padding:13px;
+    padding:13px;
 }
 .top-meta-posts
 {
-     margin-top:30px;
+    margin-top:30px;
 }
 .right-side
 {
@@ -760,9 +755,9 @@ table,td
 
 .top-meta-details
 {
-      color:#418ee0;
-      font-size:15px;
-      margin-left:10px;
+    color:#418ee0;
+    font-size:15px;
+    margin-left:10px;
 }
 .side-title
 {
