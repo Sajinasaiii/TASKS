@@ -1,8 +1,3 @@
-*
-{
-    box-sizing: border-box;
-    font-family: sans-serif;
-}
 body 
 {
     padding:0;
@@ -14,7 +9,15 @@ header
     background-color: #f7f8fa;
     display:flex;
     box-shadow:3px 3px 2px #dae3e3;
-    
+}
+.profile-logo img{
+    width: 25px;
+    height: 25px;
+}
+.number-one1{
+    margin-left: 5px;
+    font-weight: bold;
+    font-size: 13px;
 }
 .logo img
 {
@@ -32,6 +35,11 @@ header
     flex:2%;
     font-size:12px;
     padding-top:15px;
+}
+*
+{
+    box-sizing: border-box;
+    font-family: sans-serif;
 }
 .products button
 {
@@ -75,16 +83,6 @@ header
 .profile-logo
 {
       padding:11px 6px;
-}
-
-.profile-logo img{
-    width: 25px;
-    height: 25px;
-}
-.number-one1{
-    margin-left: 5px;
-    font-weight: bold;
-    font-size: 13px;
 }
 .usersnew{
     background-color:#f1f2f3;
@@ -266,12 +264,11 @@ nav
     color:gray;
     padding-top:8px;
 }
- .location i
+.location i
 {
     font-size:17px;
     padding-left:6px;
 }
-
 .profile-btn
 {
     flex:5%;

@@ -129,7 +129,6 @@
     } 
    .year
     {
-        background-color:#69b579;
         border-radius:3px;
         color:white;
         margin-left:5px;
@@ -194,7 +193,6 @@
         width: 46%;
         padding: 3px;
         border-radius: 2px;
-        border: 1px solid #b5b4b3;
         margin-left: 18px;
         background-repeat: no-repeat;
         background-position: 1% 50%;
@@ -234,7 +232,6 @@
         background-image:url("../image/icon-menu.png"),url("../image/overflow-icon.png");
         background-repeat:no-repeat,no-repeat;
         background-position: 19% 45% ,90% 45%;
-    
     }
     .search-bar
     {
@@ -344,7 +341,8 @@
 }
 @media  screen and ( max-width:415px)
 {
-    .top-tags{
+    .top-tags
+    {
         width: 92%;
     }
 }
@@ -354,7 +352,6 @@
     {
         overflow-x:hidden;
     }
-
     .logo
     {
         margin-left:3px;
@@ -509,13 +506,15 @@
 }
 @media  screen and (max-width:768px)
 {
-    .view-all1 {
+    .view-all1 
+    {
         margin-left: 218px;
-}
+   }
 }
 @media  screen and (max-width:757px)
  {  
-    .view-all1 {
+    .view-all1 
+    {
         margin-left: 122px;
         float: none;
     }
@@ -622,13 +621,11 @@
     }
     .top-layer  i
     {
-        color:#69b579;
         font-size:13px;
         margin-left:6px;
     } 
     .year
     {
-        background-color:#69b579;
         border-radius:3px;
         color:white;
         margin-left:5px;
@@ -798,4 +795,73 @@
         margin-left: 0px;
     }
 }
-
+@media  screen and (max-width:613px)
+{
+    .right-side
+    {
+        margin-right: 56px;
+    }
+}
+@media  screen and (max-width:544px)
+{
+    .side-title
+    {
+        margin-top: 4px;
+        margin-right: 35px;
+        font-size: 11px;
+    }
+}
+@media  screen and (max-width:544px)
+{
+    .heading
+    {
+        font-size: 17px;
+    }
+}
+@media  screen and (max-width:482px)
+{
+    .heading
+    {
+        font-size: 15px;
+    }
+}
+@media  screen and (max-width:463px)
+{
+    .heading
+    {
+        font-size: 13px;
+    }
+    .side-title
+    {
+        font-size: 10px;
+    }
+}
+@media  screen and (max-width:463px)
+{
+    .side-title
+    {
+        font-size: 9px;
+    }
+    .heading
+    {
+        font-size: 13px;
+    }
+}
+@media  screen and (max-width:427px)
+{  
+    .side-table
+    {
+        margin-right: 47px;
+    }
+}
+@media  screen and (max-width:363px)
+{
+    .sub-heading
+    {
+        display: none;
+    }
+    .top-posts-title
+    {
+        margin-top: 10px;
+    }
+}
