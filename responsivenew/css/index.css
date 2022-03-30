@@ -99,12 +99,12 @@ input[type="search"] {
 }
 .profile-logo:hover
 {
-      background-color: #dcdde0 ;
+    background-color: #dcdde0 ;
 }
 .inbox
 {
-      /* flex:0.5%; */
-      width: 4%;
+    /* flex:0.5%; */
+    width: 4%;
 }
 .inbox i
 {
@@ -227,7 +227,7 @@ nav
 {
     border-left: 1px solid #b5b4b3 ;
     flex:86%;
-    padding:15px;
+    /* padding:15px; */
     margin-left:105px;   
 }
 .profile-photo
@@ -501,18 +501,18 @@ nav
 }
 .badges-block
 {
-     display:flex;
-     flex-direction:row;
-     margin-top:2%;
-     width: 88%;
+    display:flex;
+    flex-direction:row;
+    margin-top:2%;
+    width: 88%;
 }
 .gold-badges
 {
-     flex:21%;
-     padding:15px;
-     border:1px solid rgb(211, 206, 206);
-     margin-right:20px;
-     border-radius:10px;    
+    flex:21%;
+    padding:15px;
+    border:1px solid rgb(211, 206, 206);
+    margin-right:20px;
+    border-radius:10px;    
 }
 .row1
 {
@@ -534,7 +534,6 @@ nav
 .row2
 {
     margin-top:8px;
-   
 }
 .row2 i
 {
