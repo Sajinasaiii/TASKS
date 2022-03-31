@@ -45,7 +45,6 @@
     .details .name
     {
         font-size:23px;
-    
     }
     .details .qualification
     {
@@ -295,7 +294,6 @@
     .twitter-link
     {
         margin-top:5px;
-  
     }
     .twitter-link span
     {
@@ -847,11 +845,32 @@
         font-size: 13px;
     }
 }
+@media  screen and (max-width:428px)
+{
+    .profile-details img
+    {
+        width: 150px;
+    }
+}
 @media  screen and (max-width:427px)
 {  
     .side-table
     {
         margin-right: 47px;
+    }
+}
+@media  screen and (max-width:425px)
+{
+    .help i, .achievements i, .inbox i, .list i 
+    {
+        margin-left: 57%;
+    }
+}
+@media  screen and (max-width:374px)
+{
+    .search-bar input
+    {
+        width: 60%;
     }
 }
 @media  screen and (max-width:363px)
@@ -864,4 +883,15 @@
     {
         margin-top: 10px;
     }
+}
+@media  screen and (max-width:326px)
+{
+    .about ul .second-last
+    {
+        display: none;
+    }
+    .profile-details img 
+    {
+        width: 75%;
+}
 }
